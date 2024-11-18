@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.página-principal {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.video-principal {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.video-recomendado {
+    flex: 1; 
+    padding: 20px;
+}
+
+.video-recomendado p {
+    margin: 0;
+}
+
+.video-thumbnail {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.video-thumbnail iframe {
+    display: block;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: left;
+}
